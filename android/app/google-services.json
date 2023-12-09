@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1006929727809",
+    "project_id": "ia-pour-le-mobile",
+    "storage_bucket": "ia-pour-le-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006929727809:android:94ab91cf2755969a1951c0",
+        "android_client_info": {
+          "package_name": "com.example.ia_pour_le_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvEtPRySr0L8Vz3ZB3emTX3h4mlqL1BNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
