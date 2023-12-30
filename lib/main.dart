@@ -2,19 +2,19 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_ui_auth/firebase_ui_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:ia_pour_le_mobile/firebase_options.dart';
-import 'package:ia_pour_le_mobile/login_screen.dart';
+import 'package:ia_pour_le_mobile/Login.dart';
 
 Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized(); 
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform); 
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   FirebaseUIAuth.configureProviders([
-    EmailAuthProvider(), 
+    EmailAuthProvider(),
   ]);
   runApp(const MainApp());
 }
 
 class MainApp extends StatelessWidget {
-  const MainApp({Key? key});
+  const MainApp({super.key, superKey, Key? customKey});
 
   @override
   Widget build(BuildContext context) {
@@ -23,6 +23,9 @@ class MainApp extends StatelessWidget {
       home: Scaffold(
         body: LoginEcran(),
       ),
+      initialRoute: '/',
+      routes: const {
+      },
     );
   }
 }
