@@ -39,7 +39,7 @@ Une fois connecté, vous accédez à la page des activités qui comprend une Bot
 
 Lorsque vous cliquez sur une activité, vous voyes un dialog  détaillant des informations importantes telles que l'image, le titre, la catégorie, le lieu, le nombre de personnes minimum requis, et le prix...
 
-### 4. iltrer sur la Liste des Activités
+### 4. Filtrer sur la Liste des Activités
 
 Sur la page des activités, une TabBar est présente, listant les différentes catégories d'activités. Par défaut, l'entrée "All" est sélectionnée, affichant toutes les activités. En sélectionnant une catégorie, la liste est filtrée en conséquence.
 
