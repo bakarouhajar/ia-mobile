@@ -2,6 +2,15 @@
 
 Bienvenue sur SocHub !
 # Les données de tests sont situées dans le dossier "Data" puis "Test" du projet.
+# La plateforme utilisée pour tester :
+<img width="190" alt="Capture d'écran 2023-12-30 164341" src="https://github.com/bakarouhajar/ia-mobile/assets/105990605/273efd4b-c160-4a06-8d64-195a23918c6e">
+
+### Démonstration Vidéo : 
+
+
+https://github.com/bakarouhajar/ia-mobile/assets/105990605/6dbda48f-9223-47ec-a635-8f6c5f9372a0
+
+
 
 # Des identifiants de connexion à l’application : 
 Identifiant 1 : 
